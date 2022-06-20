@@ -2,6 +2,7 @@
 # Bilemo
 
 Projet 7 - Créez un web service exposant une API
+[![Codacy Badge](https://app.codacy.com/project/badge/Grade/2fe5027328564975b9858d747308acdd)](https://www.codacy.com/gh/JGoronflot/P7/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=JGoronflot/P7&amp;utm_campaign=Badge_Grade)
 
 ## Description
 

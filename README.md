@@ -84,7 +84,7 @@ Choisissez votre serveur en fonction de votre système d'exploitation:
 
 Documentation :
 ```
-    - Bilemo : ???/api/doc
+    - Bilemo : http://88.151.197.130:8000/api/doc
 ```
 
 ## Auteur

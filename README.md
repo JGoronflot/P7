@@ -40,9 +40,9 @@ Choisissez votre serveur en fonction de votre système d'exploitation:
 ```
 2. Générer les clés SSH pour JWT:
 ```
-    $ mkdir -p config/jwt
-    $ openssl genpkey -out config/jwt/private.pem -aes256 -algorithm rsa -pkeyopt rsa_keygen_bits:4096
-    $ openssl pkey -in config/jwt/private.pem -out config/jwt/public.pem -pubout
+    mkdir -p config/jwt
+    openssl genpkey -out config/jwt/private.pem -aes256 -algorithm rsa -pkeyopt rsa_keygen_bits:4096
+    openssl pkey -in config/jwt/private.pem -out config/jwt/public.pem -pubout
 ```
 3. Configurez vos variables d'environnement tel que la connexion à la base de données/chemin vers les clés JWT `.env.local`:
 ```
@@ -75,7 +75,7 @@ Choisissez votre serveur en fonction de votre système d'exploitation:
 ```
 8. Lancement du serveur :
 ```
-    php bin/console server:start -d
+    symphony server:start -d
 ```
 9. Le projet est maintenant installé, vous pouvez tester l'application sur cette URL:
 ```

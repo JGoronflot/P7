@@ -75,7 +75,7 @@ Choisissez votre serveur en fonction de votre système d'exploitation:
 ```
 8. Lancement du serveur :
 ```
-    symphony server:start -d
+    symfony server:start -d
 ```
 9. Le projet est maintenant installé, vous pouvez tester l'application sur cette URL:
 ```
